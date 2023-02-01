@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+nav{
+  background-color: rgb(239, 155, 28);
+}
+
+a{
+  font-family: 'Raleway', sans-serif;
+}
+
+.note-container{
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+textarea{
+  min-height: 50px;
+  max-height: 150px;
+}
+
+input,textarea{
+  outline: none;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-weight: 600;
+}
+
+.add{
+  display: flex;
+  justify-content: right;
+}
+
+.delete{
+  display: flex;
+  justify-content: right;
+  height: 50px;
+}
+
+.note-data{
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-align: left;
+  height: 150px;
+  overflow: auto;
+}
+
+.note-head{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+  height: 50px;
+}
+
+footer{
+  font-family: 'Raleway', sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-weight: 600;
+  color: darkslategrey;
+}
